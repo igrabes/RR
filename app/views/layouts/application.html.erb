@@ -6,7 +6,6 @@
  <link href="/assets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/assets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="http://twitter.github.com/bootstrap/javascript.html#buttons"></script>
   <%= csrf_meta_tags %>
 	<meta name="description" content="">
   <meta name="author" content="">
@@ -17,9 +16,10 @@
   <![endif]-->
 	<script> 
 		$(document).ready(function(){
-		    $('button').click(function(){
+		    $('a.btn').click(function(){
 		        $('div.submit_field').removeClass("hidden");
-						$('button').addClass("disabled");
+						$('a.btn').addClass("disabled");   
+						$('div#submit').focus();
 		    });
 		});
 	</script>
@@ -88,7 +88,19 @@
 
 
   </style>  
-	
+ 	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-28399200-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script> 
 </head>
 <body>
 
