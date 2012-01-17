@@ -111,6 +111,10 @@ h1#orange {
 .linked_share {
 	float:right;
 	margin-right:45px; 
+}      
+
+.steps p {
+	font-size:15px ;
 }
 
        
