@@ -50,6 +50,7 @@ img.center {
 	margin-top:10px;
 	padding:30px; 
 	border:1px solid black;
+	background-color: #fff;
 } 
 
 #div.container.ltr {
@@ -63,6 +64,19 @@ img.center {
 .testimonial {
 	padding:20px;
 }    
+         
+.bottom_half {
+	background-color: #b7b7b7;  
+	width: 960px;  
+	padding-right:40px;  
+	padding-top:5px; 
+	padding-bottom:10px;
+}             
 
+/*#submit {
+	padding:20px;
+	border:1px solid black;
+	max-height: 250px;
+}             */
 
        
