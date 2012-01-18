@@ -2,7 +2,7 @@
 <html>
 <head>
  <title>ResumeReview.me - Get Free Feedback On Your Resume!</title>   
- <meta name="description" content="">
+ <meta name="description" content="Free Resume Feedback - Assesed and edited by peers to improve your chances of getting that interview">
  <meta name="author" content="">
  <meta name="google-site-verification" content="GQUW--rn5cbmGXfY5oRxO-1-DUPFDIYSFpPuk3-ce9s" />
  <link href="/assets/application.css" media="screen" rel="stylesheet" type="text/css" />
@@ -104,16 +104,31 @@
 	</script> 
 </head>
 <body>
-	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
 	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
 	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+		}(document, 'script', 'facebook-jssdk'));
+	</script> 
+	<!-- ClickTale Top part -->
+	<script type="text/javascript">
+	var WRInitTime=(new Date()).getTime();
+	</script>
+	<!-- ClickTale end of Top part -->
 
 <%= yield %>
 
+  <!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRc5.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(3850,0.75,"www09");
+</script>
+<!-- ClickTale end of Bottom part -->
 </body>
 </html>
