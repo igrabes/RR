@@ -1,6 +1,9 @@
 RR::Application.routes.draw do
   
   root :to => 'pages#index'
+  
+  match '/about' => 'pages#about' 
+  match '/howitworks' => 'pages#howitworks'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

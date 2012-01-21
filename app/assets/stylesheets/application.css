@@ -87,8 +87,11 @@ h1#orange {
 	
 .social_links {
 	float:right;
-	margin-top:-10px;
-	width:300px;
+	margin-top:25px; 
+	margin-right:200px;
+	width:300px; 
+	z-index:+5; 
+	display:block;
 }  
 
 .twitter_share, .fb-like, .linked_share {
@@ -115,6 +118,21 @@ h1#orange {
 
 .steps p {
 	font-size:15px ;
+}              
+
+.social_header {
+	background-image:url("/assets/header_background.gif");
+	background-repeat:repeat; 
+	background-color: transparent;
+	height:60px;
+	margin-top:-90px; 
+	margin-left:-200px;
+	z-index:-5; 
+}
+#header-ad {  
+	margin-top:-60px;
+	margin-right:40px;
+	float:right; 
 }
 
        
