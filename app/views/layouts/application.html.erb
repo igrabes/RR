@@ -141,9 +141,10 @@
 					<strong>Resume Review</strong>
 				</a>
 				<ul class="nav"> 
-					<li class><a href="/">Home</a></li>
-					<li><a href="/about">About</a></li> 
-					<li><a href="/howitworks">How It Works</a></li> 
+					<li><%= link_to "Home", root_path %></li>
+					<li><%= link_to "About", about_path %></li> 
+					<li><%= link_to "How It Works", howitworks_path %></li>
+				  <li><%= link_to "Blog", 'http://blog.resumereview.me', :target => "_blank" %></li>
 				</ul>
 			</div>
 		</div> 
