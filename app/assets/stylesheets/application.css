@@ -134,6 +134,18 @@ h1#orange {
 	margin-top:-60px;
 	margin-right:40px;
 	float:right; 
+}  
+
+/* Pricing Page */
+
+.pricing-header {
+  background-color: #fff; 
+	border-bottom: 1px #efefef solid;
+  padding: 20px 20px 10px;
+  margin: 20px 20px 20px 20px; 
+	text-align: center;  
+	width: 700px; 
+	margin-left: 100px;
 }
 
        

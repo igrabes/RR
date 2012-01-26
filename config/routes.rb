@@ -4,6 +4,7 @@ RR::Application.routes.draw do
   
   match '/about' => 'pages#about' 
   match '/howitworks' => 'pages#howitworks'
+  match '/pricing' => 'pages#pricing'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
