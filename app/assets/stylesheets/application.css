@@ -146,6 +146,103 @@ h1#orange {
 	text-align: center;  
 	width: 700px; 
 	margin-left: 100px;
+}   
+
+
+/* Testimonial */
+                 
+.testimonial { 
+	/*position:relative; */
+	overflow:hidden; 
+	/*height: 100px*/;
+/*  margin-left: -10px; */  
+	margin-top: 50px;
+	padding:15px 10px 25px 25px; 
+	background: url(/assets/quote.png) 5px 5px no-repeat; 
+	background-color: #fdfdfd;
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color:#000;
+	opacity: 1.2;
+	filter:alpha(opacity=80);
+	/*-moz-border-radius:10px; 
+	 -webkit-border-radius:10px; 
+	 -khtml-border-radius:10px;*/ 
+  border-bottom: 1px #efefef solid; 
+	 }
+
+.testimonial p {
+	margin-left:60px;
+	margin-top:20px;
+	font-size: 22px;
+	line-height:28px;
+	opacity: 1;
 }
 
-       
+.testimonial p.tiny {
+	font-size:16px; 
+	color:#87909a; 
+	line-height:21px; 
+	margin-bottom:0px; 
+	float:right;      
+	margin-right: 70px;
+}  
+
+/* Contact Us */
+
+.contact_us {
+  padding-top: 40px;
+}       
+
+/* Example Module */
+
+.example_module {
+  padding-top:20px;
+  }  
+  
+.thumbnail_images {
+  padding: 15px;
+  /*margin-left:20px;*/ 
+  height:100%;
+  background-color:#898989;  
+  
+}
+
+.example_module h3 {
+  padding: 10px;
+  padding-left:20px; 
+  padding-bottom:20px;
+  font-size: 26px;
+}    
+
+.example_module h5 {
+  font-size:18px;
+}  
+
+/* value_prop */  
+
+.value_prop { 
+  padding: 10px 0px 0px 20px;
+  margin-top:25px;
+  margin-left:10px; 
+}     
+
+.value_prop h3 {
+  font-size:26px;
+}     
+
+.value_prop h5 {
+  font-size:18px;
+}
+
+
+.alignleft {
+  float: left;
+  margin: 0px 21px 48px 0px;
+} 
+
+.alignright a {
+  float: right; 
+  padding-top: 25px;
+  font-color: #9e9e9e;
+}
+

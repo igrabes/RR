@@ -9,21 +9,20 @@
  <link href="/assets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/assets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="/assets/mini-base.css" media="screen" rel="stylesheet" type="text/css" />
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script> 
   <%= csrf_meta_tags %> 
-  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 	<script> 
 		$(document).ready(function(){
-		    $('a.btn').click(function(){
+		    $('a.btn,a.submit_link').click(function(){
 		        $('div.submit_field').removeClass("hidden");
 						$('a.btn').addClass("disabled");   
-						$('div#submit').focus();
+						$('#submit').focus();
 		    });
 		});
-	</script>
+	</script> 
 	<style type="text/css">
     /* Override some defaults */
     html, body {
@@ -61,7 +60,7 @@
       padding: 20px 20px 10px;
       margin: 20px 20px 40px 20px; 
 			text-align: center;
-    }
+    } 
 
     /* Styles you shouldn't keep as they are for displaying this base example only */
     .content .span10,

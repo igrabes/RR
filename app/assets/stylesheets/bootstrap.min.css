@@ -27,7 +27,7 @@ body{background-color:#ffffff;margin:0;font-family:"Helvetica Neue",Helvetica,Ar
 .container-fluid:after{clear:both;}
 .container-fluid>.sidebar{position:absolute;top:0;left:20px;width:220px;}
 .container-fluid>.content{margin-left:240px;}
-a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+a{color:#000;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#9e9e9e;text-decoration:underline;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .hide{display:none;}
@@ -97,7 +97,7 @@ hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
 strong{font-style:inherit;font-weight:bold;}
 em{font-style:italic;font-weight:inherit;line-height:inherit;}
 .muted{color:#bfbfbf;}
-blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;font-family:Arial,sans-serif;}
 blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
 address{display:block;line-height:18px;margin-bottom:18px;}
 code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
@@ -354,3 +354,4 @@ button.btn::-moz-focus-inner,input[type=submit].btn::-moz-focus-inner{padding:0;
 .media-grid li{display:inline;}
 .media-grid a{float:left;padding:4px;margin:0 0 18px 20px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:0 1px 1px rgba(0, 0, 0, 0.075);}.media-grid a img{display:block;}
 .media-grid a:hover{border-color:#0069d6;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
+.media-grid h5{text-align:center; font-style:strong;}
